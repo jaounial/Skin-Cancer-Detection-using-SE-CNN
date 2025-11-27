@@ -1,10 +1,10 @@
-# 🩺 Skin Cancer Detection using SE-CNN (APS360 Final Project)
+# Skin Cancer Detection using SE-CNN
 
 This project implements a **Squeeze-and-Excitation Convolutional Neural Network (SE-CNN)** for automated **melanoma detection** from dermatoscopic images. The model performs **binary classification — benign vs malignant** — using the **HAM10000** dataset and is designed to support dermatologists with fast and reliable lesion screening.
 
 ---
 
-## ✨ Features
+## Features
 - End-to-end PyTorch pipeline for medical image classification
 - Google Drive data loading for Colab training
 - Data augmentation + class-weighted training for imbalance
@@ -15,7 +15,7 @@ This project implements a **Squeeze-and-Excitation Convolutional Neural Network 
 
 ---
 
-## 📁 Dataset
+## Dataset
 **HAM10000 — Human Against Machine with 10,000 Training Images**
 
 | Label | Type | Notes |
@@ -31,6 +31,6 @@ Images were resized to **224 × 224 × 3**, normalized to **[0,1]**, and augment
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 The model extends a traditional CNN with **Squeeze-and-Excitation (SE) channel attention** to emphasize clinically relevant visual patterns such as pigment networks and asymmetric borders.
 
