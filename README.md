@@ -1,6 +1,6 @@
 # Skin Cancer Detection using SE-CNN
 
-This project implements a **Squeeze-and-Excitation Convolutional Neural Network (SE-CNN)** for automated **melanoma detection** from dermatoscopic images. The model performs **binary classification — benign vs malignant** — using the **HAM10000** dataset and is designed to support dermatologists with fast and reliable lesion screening.
+This project implements a **Squeeze-and-Excitation Convolutional Neural Network (SE-CNN)** for automated **melanoma detection** from dermatoscopic images. The model performs **binary classification, benign vs malignant**, using the **HAM10000** dataset and is designed to support dermatologists with fast and reliable lesion screening.
 
 ---
 
